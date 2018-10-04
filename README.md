@@ -1,6 +1,4 @@
-# snowcobra
-
-generated using Luminus version "3.10.1"
+# multi-client-ws
 
 FIXME
 
@@ -14,8 +12,12 @@ You will need [Leiningen][1] 2.0 or above installed.
 
 To start a web server for the application, run:
 
-    lein run 
+    lein run
+
+To start the ClojureScript compiler run:
+   
+    lein figwheel
 
 ## License
 
-Copyright © 2018 FIXME
+Copyright © 2015 Dmitri Sotnikov

@@ -1,0 +1,7 @@
+2018-Oct-03 21:09:17 -0500 frozenfish INFO [multi-client-ws.handler] - 
+-=[ multi-client-ws started successfully using the development profile ]=-
+2018-Oct-03 21:09:18 -0500 frozenfish INFO [multi-client-ws.core] - server started on port: 3000
+2018-Oct-03 21:11:04 -0500 frozenfish INFO [multi-client-ws.routes.websockets] - channel open
+2018-Oct-03 21:13:38 -0500 frozenfish INFO [multi-client-ws.routes.websockets] - channel closed: :going-away
+2018-Oct-03 21:13:47 -0500 frozenfish INFO [multi-client-ws.handler] - multi-client-ws is shutting down...
+2018-Oct-03 21:13:47 -0500 frozenfish INFO [multi-client-ws.handler] - shutdown complete!
