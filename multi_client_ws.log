@@ -5,3 +5,31 @@
 2018-Oct-03 21:13:38 -0500 frozenfish INFO [multi-client-ws.routes.websockets] - channel closed: :going-away
 2018-Oct-03 21:13:47 -0500 frozenfish INFO [multi-client-ws.handler] - multi-client-ws is shutting down...
 2018-Oct-03 21:13:47 -0500 frozenfish INFO [multi-client-ws.handler] - shutdown complete!
+2018-Oct-03 21:22:39 -0500 frozenfish INFO [multi-client-ws.handler] - 
+-=[ multi-client-ws started successfully using the development profile ]=-
+2018-Oct-03 21:22:39 -0500 frozenfish INFO [multi-client-ws.core] - server started on port: 3000
+2018-Oct-03 21:24:16 -0500 frozenfish INFO [multi-client-ws.routes.websockets] - channel open
+2018-Oct-03 21:24:38 -0500 frozenfish INFO [multi-client-ws.routes.websockets] - channel closed: :going-away
+2018-Oct-03 21:25:13 -0500 frozenfish INFO [multi-client-ws.routes.websockets] - channel open
+2018-Oct-03 21:25:41 -0500 frozenfish INFO [multi-client-ws.routes.websockets] - channel closed: :going-away
+2018-Oct-03 21:25:46 -0500 frozenfish INFO [multi-client-ws.routes.websockets] - channel open
+2018-Oct-03 21:26:33 -0500 frozenfish INFO [multi-client-ws.routes.websockets] - channel open
+2018-Oct-03 21:26:34 -0500 frozenfish INFO [multi-client-ws.routes.websockets] - channel closed: :going-away
+2018-Oct-03 21:27:06 -0500 frozenfish INFO [multi-client-ws.routes.websockets] - channel closed: :going-away
+2018-Oct-03 21:27:42 -0500 frozenfish INFO [multi-client-ws.handler] - multi-client-ws is shutting down...
+2018-Oct-03 21:27:42 -0500 frozenfish INFO [multi-client-ws.handler] - shutdown complete!
+2018-Oct-03 21:28:25 -0500 frozenfish INFO [multi-client-ws.handler] - 
+-=[ multi-client-ws started successfully using the development profile ]=-
+2018-Oct-03 21:28:25 -0500 frozenfish INFO [multi-client-ws.core] - server started on port: 3000
+2018-Oct-03 22:05:26 -0500 frozenfish INFO [multi-client-ws.handler] - multi-client-ws is shutting down...
+2018-Oct-03 22:05:26 -0500 frozenfish INFO [multi-client-ws.handler] - shutdown complete!
+2018-Oct-03 22:06:53 -0500 frozenfish INFO [multi-client-ws.handler] - 
+-=[ multi-client-ws started successfully using the development profile ]=-
+2018-Oct-03 22:06:54 -0500 frozenfish INFO [multi-client-ws.core] - server started on port: 3000
+2018-Oct-03 22:07:39 -0500 frozenfish INFO [multi-client-ws.routes.websockets] - channel open
+2018-Oct-03 22:09:07 -0500 frozenfish INFO [multi-client-ws.routes.websockets] - channel closed: :going-away
+2018-Oct-03 22:09:08 -0500 frozenfish INFO [multi-client-ws.routes.websockets] - channel open
+2018-Oct-03 22:14:54 -0500 frozenfish INFO [multi-client-ws.routes.websockets] - channel closed: :going-away
+2018-Oct-03 22:15:22 -0500 frozenfish INFO [multi-client-ws.routes.websockets] - channel open
+2018-Oct-03 22:17:37 -0500 frozenfish INFO [multi-client-ws.routes.websockets] - channel closed: :going-away
+2018-Oct-03 22:17:39 -0500 frozenfish INFO [multi-client-ws.routes.websockets] - channel open

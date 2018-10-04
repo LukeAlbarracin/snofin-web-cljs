@@ -18,7 +18,6 @@
                  [metosin/ring-http-response "0.6.2"]
                  [bouncer "0.3.2"]
                  [prone "0.8.2"]
-                 [re-com "2.1.0"]
                  [org.clojure/tools.nrepl "0.2.10"]
                  [org.clojure/clojurescript "0.0-3291" :scope "provided"]
                  [org.clojure/tools.reader "0.9.2"]
