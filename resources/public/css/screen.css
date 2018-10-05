@@ -1,6 +1,31 @@
 html,
 body {
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Courier New', Helvetica, Arial, sans-serif;
     height: 100%;
     padding-top: 40px;
+    color : white;
+    background-color: black;
 }
+
+h4 {
+    color : white;
+    font-size: 60px;
+}
+
+h3 {
+    color : white;
+    font-size: 45px;
+    text-decoration: underline;
+}
+
+textarea.form-control {
+    color: whitesmoke;
+    font-size: 20px;
+    background-color: black;
+    border-color: aliceblue;
+}
+
+button.btn.btn-primary {
+    color : white;
+}
+

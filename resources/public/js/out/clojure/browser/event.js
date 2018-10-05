@@ -5,28 +5,28 @@ goog.require('goog.events');
 goog.require('goog.events.EventTarget');
 goog.require('goog.events.EventType');
 
-clojure.browser.event.IEventType = (function (){var obj32176 = {};
-return obj32176;
+clojure.browser.event.IEventType = (function (){var obj32194 = {};
+return obj32194;
 })();
 
 clojure.browser.event.event_types = (function clojure$browser$event$event_types(this$){
-if((function (){var and__24753__auto__ = this$;
-if(and__24753__auto__){
+if((function (){var and__24759__auto__ = this$;
+if(and__24759__auto__){
 return this$.clojure$browser$event$IEventType$event_types$arity$1;
 } else {
-return and__24753__auto__;
+return and__24759__auto__;
 }
 })()){
 return this$.clojure$browser$event$IEventType$event_types$arity$1(this$);
 } else {
-var x__25401__auto__ = (((this$ == null))?null:this$);
-return (function (){var or__24765__auto__ = (clojure.browser.event.event_types[goog.typeOf(x__25401__auto__)]);
-if(or__24765__auto__){
-return or__24765__auto__;
+var x__25407__auto__ = (((this$ == null))?null:this$);
+return (function (){var or__24771__auto__ = (clojure.browser.event.event_types[goog.typeOf(x__25407__auto__)]);
+if(or__24771__auto__){
+return or__24771__auto__;
 } else {
-var or__24765__auto____$1 = (clojure.browser.event.event_types["_"]);
-if(or__24765__auto____$1){
-return or__24765__auto____$1;
+var or__24771__auto____$1 = (clojure.browser.event.event_types["_"]);
+if(or__24771__auto____$1){
+return or__24771__auto____$1;
 } else {
 throw cljs.core.missing_protocol.call(null,"IEventType.event-types",this$);
 }
@@ -40,10 +40,10 @@ goog.events.EventTarget.prototype.clojure$browser$event$IEventType$ = true;
 goog.events.EventTarget.prototype.clojure$browser$event$IEventType$event_types$arity$1 = (function (this$){
 var this$__$1 = this;
 return cljs.core.into.call(null,cljs.core.PersistentArrayMap.EMPTY,cljs.core.map.call(null,((function (this$__$1){
-return (function (p__32177){
-var vec__32178 = p__32177;
-var k = cljs.core.nth.call(null,vec__32178,(0),null);
-var v = cljs.core.nth.call(null,vec__32178,(1),null);
+return (function (p__32195){
+var vec__32196 = p__32195;
+var k = cljs.core.nth.call(null,vec__32196,(0),null);
+var v = cljs.core.nth.call(null,vec__32196,(1),null);
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.keyword.call(null,k.toLowerCase()),v], null);
 });})(this$__$1))
 ,cljs.core.merge.call(null,cljs.core.js__GT_clj.call(null,goog.events.EventType))));
@@ -54,10 +54,10 @@ Element.prototype.clojure$browser$event$IEventType$ = true;
 Element.prototype.clojure$browser$event$IEventType$event_types$arity$1 = (function (this$){
 var this$__$1 = this;
 return cljs.core.into.call(null,cljs.core.PersistentArrayMap.EMPTY,cljs.core.map.call(null,((function (this$__$1){
-return (function (p__32179){
-var vec__32180 = p__32179;
-var k = cljs.core.nth.call(null,vec__32180,(0),null);
-var v = cljs.core.nth.call(null,vec__32180,(1),null);
+return (function (p__32197){
+var vec__32198 = p__32197;
+var k = cljs.core.nth.call(null,vec__32198,(0),null);
+var v = cljs.core.nth.call(null,vec__32198,(1),null);
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.keyword.call(null,k.toLowerCase()),v], null);
 });})(this$__$1))
 ,cljs.core.merge.call(null,cljs.core.js__GT_clj.call(null,goog.events.EventType))));
@@ -65,8 +65,8 @@ return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMP
 } else {
 }
 clojure.browser.event.listen = (function clojure$browser$event$listen(){
-var G__32182 = arguments.length;
-switch (G__32182) {
+var G__32200 = arguments.length;
+switch (G__32200) {
 case 3:
 return clojure.browser.event.listen.cljs$core$IFn$_invoke$arity$3((arguments[(0)]),(arguments[(1)]),(arguments[(2)]));
 
@@ -91,8 +91,8 @@ return goog.events.listen(src,cljs.core.get.call(null,clojure.browser.event.even
 
 clojure.browser.event.listen.cljs$lang$maxFixedArity = 4;
 clojure.browser.event.listen_once = (function clojure$browser$event$listen_once(){
-var G__32185 = arguments.length;
-switch (G__32185) {
+var G__32203 = arguments.length;
+switch (G__32203) {
 case 3:
 return clojure.browser.event.listen_once.cljs$core$IFn$_invoke$arity$3((arguments[(0)]),(arguments[(1)]),(arguments[(2)]));
 
@@ -117,8 +117,8 @@ return goog.events.listenOnce(src,cljs.core.get.call(null,clojure.browser.event.
 
 clojure.browser.event.listen_once.cljs$lang$maxFixedArity = 4;
 clojure.browser.event.unlisten = (function clojure$browser$event$unlisten(){
-var G__32188 = arguments.length;
-switch (G__32188) {
+var G__32206 = arguments.length;
+switch (G__32206) {
 case 3:
 return clojure.browser.event.unlisten.cljs$core$IFn$_invoke$arity$3((arguments[(0)]),(arguments[(1)]),(arguments[(2)]));
 

@@ -47,7 +47,9 @@
       (do
         (doseq [result (str/split (:out result) #"\n") channel @channels]
           (send! channel (clj->json result))))
-      (error->json (:err result)))))
+      (do
+        (doseq [channel @channels]
+          (send! channel (error->json (:err result))))))))
 
 (defn notify-clients [msg]
   "Talks to the frontend..."
