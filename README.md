@@ -20,4 +20,6 @@ To start the ClojureScript compiler run:
 
 ## License
 
+template credit due to @yogthos
+
 Copyright © 2015 Dmitri Sotnikov
