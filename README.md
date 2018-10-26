@@ -1,6 +1,6 @@
 # multi-client-ws
 
-FIXME
+App still in progress... Designed to create exercises in Python using a Python Interpretor from the Backend, sending it over via websocket to be displayed on the frontend.
 
 ## Prerequisites
 
