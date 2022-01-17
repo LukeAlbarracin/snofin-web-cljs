@@ -1,25 +1,26 @@
-# multi-client-ws
+# Snofin
 
-App still in progress... Designed to create exercises in Python using a Python Interpretor from the Backend, sending it over via websocket to be displayed on the frontend.
+## Full-Stack Clojure App with Python Interpreter
 
-## Prerequisites
+My experimention with a frontend written in Clojure integrated with a backend Python interpreter
 
-You will need [Leiningen][1] 2.0 or above installed.
+## Context
+I started this while exploring different programming languages and wanted to see if it was possible to run Python in a Clojure full stack application.  I had experimented with Rust macros [here](https://github.com/LukeAlbarracin/recursion-rust) and needed to implement for computer science club as an example since students only knew Python.
 
-[1]: https://github.com/technomancy/leiningen
+GraalVM uses [Truffle](https://www.graalvm.org/reference-manual/java-on-truffle/), a Java library that offers abstract syntax tree (AST) support.
 
-## Running
+## Technology Details
 
-To start a web server for the application, run:
+### Frontend
+The frontend is implemented as a web application in Clojure uses Clojurescript to generate Javascript.
 
-    lein run
+### Backend
+The backend uses Luminus framework and supports websockets with http-kit library to parse client requests.  A request packages up a Python text expression which is interpreted Truffle on GrallVM to parse and invoke shell commands.
 
-To start the ClojureScript compiler run:
-   
-    lein figwheel
+## Related
+- [Rust macro exploration of tail-call optimization](https://github.com/LukeAlbarracin/recursion-rust)
 
-## License
-
-template credit due to @yogthos
-
-Copyright © 2015 Dmitri Sotnikov
+## References
+- [7 languages in 7 weeks](https://pragprog.com/titles/btlang/seven-languages-in-seven-weeks/)
+- [Async programming](https://www.braveclojure.com/core-async/)
+- [Web sockets](https://luminusweb.com/docs/websockets.html)
