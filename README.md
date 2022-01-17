@@ -1,6 +1,6 @@
 # Snofin
 
-## Full-Stack Clojure App with Python Interpreter
+## Full-Stack Clojure Web App with Python Interpreter
 
 My experimention with a frontend written in Clojure integrated with a backend Python interpreter
 
