@@ -15,7 +15,7 @@ GraalVM uses [Truffle](https://www.graalvm.org/reference-manual/java-on-truffle/
 The frontend is implemented as a web application in Clojure uses Clojurescript to generate Javascript.
 
 ### Backend
-The backend uses Luminus framework and supports websockets with http-kit library to parse client requests.  A request packages up a Python text expression which is interpreted Truffle on GrallVM to parse and invoke shell commands.
+The backend uses Luminus framework and supports websockets with http-kit library to parse client requests.  A request packages up a Python text expression which is interpreted Truffle on GraalVM to parse and invoke shell commands.
 
 ## Related
 - [Rust macro exploration of tail-call optimization](https://github.com/LukeAlbarracin/recursion-rust)
