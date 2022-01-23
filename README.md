@@ -2,7 +2,7 @@
 
 ## Full-Stack Clojure Web App with Python Interpreter
 
-My experimention with a frontend written in Clojure integrated with a backend Python interpreter
+My experimention with a frontend written in Clojure integrated with a backend Python interpreter.
 
 ## Context
 I started this while exploring different programming languages and wanted to see if it was possible to run Python in a Clojure full stack application.  I had experimented with Rust macros [here](https://github.com/LukeAlbarracin/recursion-rust) and needed to implement for computer science club as an example since students only knew Python.
