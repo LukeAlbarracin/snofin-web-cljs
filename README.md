@@ -22,5 +22,5 @@ The backend uses Luminus framework and supports websockets with http-kit library
 
 ## References
 - [7 languages in 7 weeks](https://pragprog.com/titles/btlang/seven-languages-in-seven-weeks/)
-- [Async programming (from "Clojure for the Brave and True"](https://www.braveclojure.com/core-async/)
+- [Async programming (from "Clojure for the Brave and True")](https://www.braveclojure.com/core-async/)
 - [Web sockets](https://luminusweb.com/docs/websockets.html)
